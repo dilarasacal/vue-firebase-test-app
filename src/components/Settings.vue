@@ -66,7 +66,6 @@ export default {
   },
   watch: {
     isDragging(newValue) {
-      console.log(newValue)
       if (newValue) {
         this.delayedDragging = true;
         return;
